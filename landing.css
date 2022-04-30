@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:white;
+    overflow: scroll;
+}
+img.firstimage{
+    height: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+img.secondimage{
+  position: fixed;
+  top: 100px;
+  left: 260px;
+    
+}
+p.firsttext{
+    position: fixed;
+    left: 180px;
+    top: 80px;
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-family: spartan  sans-serif;
+    line-height: 45px;
+}
+p.secondtext{
+    position: fixed;
+    left: 180px;
+    top:230px ;
+    color: hsl(303, 10%, 53%);
+}
+.container1{
+    width: 340px;
+    height: 200px;
+    background-color: hsl(300, 43%, 22%);
+    position: fixed;
+    top: 360px;
+    left: 180px;
+    border-radius: 5px;
+
+}
+img.thirdimage{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 32px;
+    left: 25px;
+    
+}
+h1{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 90px;
+    top: -12px;
+    word-spacing: 1px;
+}
+p.thirdtext{
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+    left: 90px;
+}
+p.fourthtext{
+    color: white;
+    padding: 30px;
+    padding-top: 0px;
+}
+.container2{
+    width: 340px;
+    height: 200px;
+    background-color: hsl(300, 43%, 22%);
+    position: fixed;
+    top: 380px;
+    left: 550px;
+    border-radius: 5px;
+}
+img.fourthimage{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 32px;
+    left: 25px;
+}
+.container3{
+    width: 340px;
+    height: 200px;
+    background-color: hsl(300, 43%, 22%);
+    position: fixed;
+    top: 400px;
+    left: 920px;
+    border-radius: 5px;
+}
+p.fifthtext{
+    color: white;
+    padding: 40px;
+    padding-top: 10px;
+}
+.container4{
+    width: 340px;
+    height: 35px;
+    position: fixed;
+    left: 720px;
+    top: 50px;
+    background-color: rgba(147, 123, 146, 0.1 );
+    border-radius: 8px;
+    color: hsl(300, 43%, 22%);
+    
+    
+}
+figure.star{
+    margin: 8px;
+    margin-left:25px ;
+    margin-right: 0px;
+}
+figure.star img{
+    width: 12px;
+}
+ span{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight:bolder;
+    padding-top: 2px;
+}
+.container5{
+    width: 340px;
+    height: 35px;
+    position: fixed;
+    left: 740px;
+    top: 96px;
+    background-color: rgba(147, 123, 146, 0.1 );
+    border-radius: 8px;
+    color: hsl(300, 43%, 22%);
+
+}
+.container6{
+    width: 340px;
+    height: 35px;
+    position: fixed;
+    left: 770px;
+    top: 140px;
+    background-color: rgba(147, 123, 146, 0.1 );
+    border-radius: 8px;
+    color: hsl(300, 43%, 22%);
+}

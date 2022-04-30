@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color:  hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.order{
+    width: 340px;
+    height: 480px;
+    background-color: white;
+margin-top: 90px;
+border-radius: 14px;
+border: 2px solid inherit;
+
+}
+div.order img{
+    width: 340px;
+    height: 150px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px ;
+    background-color: hsl(240, 100%, 50%) hsl(240, 100%, 50%);
+    background-blend-mode: darken;
+}
+
+
+ h2{
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 85px;
+    font-weight: bold;
+    
+    padding-bottom: 10px;
+    font-family: arial;
+    
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    color:  hsl(224, 23%, 55%);
+    line-height: 20px;
+    padding-top: 0px;
+}
+div.plan{
+    width: 260px;
+    background-color: rgb(114, 128, 167,0.05);
+    height: 57px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+p.annual{
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+    padding-left:70px ;
+    padding-bottom: 0px;
+    margin-top: -55px;
+}
+p.price{
+    text-align: left;
+    padding-left: 70px;
+    padding-top:0px ;
+}
+a.link{
+    position: fixed;
+    left: 750px;
+    top: 395px;
+}
+button.link{
+    background-color: blue;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    position: relative;
+    top: 32px;
+    left: 45px;
+    box-shadow:   10px lightgrey;
+    box-shadow: 10px 1px 20px 10px lightgrey;
+    
+}
+button.link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+div.plan img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+a.cancel{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 128px;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size:  cover;
+    }
+    div.order{
+        width: 310px;
+    
+        height: 480px;
+        background-color: white;
+    margin-top: 90px;
+    border-radius: 14px;
+    border: 2px solid inherit;
+    }
+    div.order img{
+        width: 310px;
+        height: 150px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius:0px ;
+        background-color: hsl(240, 100%, 50%) hsl(240, 100%, 50%);
+        background-blend-mode: darken;
+    }
+    
+ h2{
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 85px;
+    font-weight: bold;
+    
+    padding-bottom: 10px;
+    font-family: arial;
+    
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    color:  hsl(224, 23%, 55%);
+    line-height: 20px;
+    padding-top: 0px;
+}
+div.plan{
+    width: 260px;
+    background-color: rgb(114, 128, 167,0.05);
+    height: 57px;
+    position: relative;
+    top: 15px;
+    left: 16px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+p.annual{
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+    padding-left:70px ;
+    padding-bottom: 0px;
+    margin-top: -55px;
+}
+p.price{
+    text-align: left;
+    padding-left: 70px;
+    padding-top:0px ;
+}
+a.link{
+    position: fixed;
+    left: 750px;
+    top: 395px;
+}
+button.link{
+    background-color: blue;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    position: relative;
+    top: 32px;
+    left: 30px;
+    box-shadow:   10px lightgrey;
+    box-shadow: 10px 1px 20px 10px lightgrey;
+    
+}
+button.link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+div.plan img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+a.cancel{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 128px;
+}
+}

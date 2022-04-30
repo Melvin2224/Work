@@ -1,0 +1,107 @@
+@media only screen and (max-width:600px){
+    body{
+        background-image: url(images.task2/bg-pattern-top-mobile.svg) url(images.task2/bg-pattern-bottom-mobile.svg);
+        background-size: top bottom;
+    }
+    p.firsttext{
+        position: fixed;
+        left: 100px;
+        top: 70px;
+        font-size: 50px;
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        font-family: spartan  sans-serif;
+        line-height: 45px;
+        text-align: center;
+    }
+    p.secondtext{
+        position: fixed;
+        left: 60px;
+        top:230px ;
+        color: hsl(303, 10%, 53%);
+        text-align: center;
+        font-size: 17.5px;
+        line-height: 22px;
+    }
+    .container4{
+        width: 340px;
+        height: 70px;
+        position: fixed;
+        left: 90px;
+        top: 335px;
+        background-color: rgba(147, 123, 146, 0.1 );
+        border-radius: 8px;
+        color: hsl(300, 43%, 22%);
+        
+        
+        
+    }
+    figure.star{
+
+        text-align: center;
+    }
+    figure.star img{
+        width: 16px;
+        text-align: center;
+        
+        margin-top: 10px;
+        
+    }
+     span{
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight:bolder;
+        padding-top: 10px;
+        text-align: center;
+        display: block;
+
+    }
+    .container5{
+        width: 340px;
+        height: 70px;
+        position: fixed;
+        left: 90px;
+        top: 420px;
+        background-color: rgba(147, 123, 146, 0.1 );
+        border-radius: 8px;
+        color: hsl(300, 43%, 22%);
+    
+    }
+    .container6{
+        width: 340px;
+        height: 70px;
+        position: fixed;
+        left: 90px;
+        top: 505px;
+        background-color: rgba(147, 123, 146, 0.1 );
+        border-radius: 8px;
+        color: hsl(300, 43%, 22%);
+    }
+    .container1{
+        width: 340px;
+        height: 200px;
+        background-color: hsl(300, 43%, 22%);
+        position: fixed;
+        top: 620px;
+        left: 90px;
+        border-radius: 5px;
+    }
+    .container2{
+        width: 340px;
+        height: 200px;
+        background-color: hsl(300, 43%, 22%);
+        position: fixed;
+        top: 850px;
+        left: 90px;
+        border-radius: 5px;
+    }
+    .container3{
+        width: 340px;
+        height: 200px;
+        background-color: hsl(300, 43%, 22%);
+        position: fixed;
+        top: 1090px;
+        left: 90px;
+        border-radius: 5px;
+    }
+}
